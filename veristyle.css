@@ -1,0 +1,84 @@
+.body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.headline-first {
+  color: green;
+  text-align: center;
+  text-shadow: 2cm;
+}
+
+.intro {
+  text-align: center;
+}
+pre::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  border-bottom: 4px solid violet;
+}
+.meet {
+  color: navy;
+  text-align: center;
+  text-shadow: 2cm;
+}
+.container{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border-radius:30px;
+
+}
+.color-box {
+  background-color: violet;
+  color:white;
+  width: 300px;
+  text-align:center;
+}
+
+.profile-cards-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  display:inline-block;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.new-line {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
